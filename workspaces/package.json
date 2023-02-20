@@ -9,5 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@7.26.3"
+  "packageManager": "pnpm@7.26.3",
+  "pnpm": {
+    "patchedDependencies": {
+      "is-odd@3.0.1": "patches/is-odd@3.0.1.patch"
+    }
+  }
 }

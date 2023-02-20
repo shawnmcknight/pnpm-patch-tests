@@ -1,5 +1,10 @@
 lockfileVersion: 5.4
 
+patchedDependencies:
+  is-odd@3.0.1:
+    hash: vgmljaz5tx6q4ldttzraktswfa
+    path: patches/is-odd@3.0.1.patch
+
 importers:
 
   .:
