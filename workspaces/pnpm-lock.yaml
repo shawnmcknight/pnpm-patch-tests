@@ -14,13 +14,13 @@ importers:
     specifiers:
       is-odd: ^3.0.1
     dependencies:
-      is-odd: 3.0.1
+      is-odd: 3.0.1_vgmljaz5tx6q4ldttzraktswfa
 
   packages/b:
     specifiers:
       is-odd: ^3.0.1
     dependencies:
-      is-odd: 3.0.1
+      is-odd: 3.0.1_vgmljaz5tx6q4ldttzraktswfa
 
 packages:
 
@@ -29,9 +29,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /is-odd/3.0.1:
+  /is-odd/3.0.1_vgmljaz5tx6q4ldttzraktswfa:
     resolution: {integrity: sha512-CQpnWPrDwmP1+SMHXZhtLtJv90yiyVfluGsX5iNCVkrhQtU3TQHsUWPG9wkdk9Lgd5yNpAg9jQEo90CBaXgWMA==}
     engines: {node: '>=4'}
     dependencies:
       is-number: 6.0.0
     dev: false
+    patched: true
